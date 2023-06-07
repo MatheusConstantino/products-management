@@ -1,0 +1,114 @@
+.page-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: #9933990D;
+    width: 200px;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .brand-text {
+    font-weight: bold;
+    color: var(--purple);
+    font-size: 18px;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 32px;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .item-active{
+    background-color: #FFF;
+    padding: 8px 18px;
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .item-active span{
+    margin-right: 8px;
+    padding: 4px;
+    background-color: var(--purple);
+    color: var(--white);
+    border-radius: 10px;
+  }
+
+  .item-active p{
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+
+  .item-active-logout{
+    padding: 8px 18px;
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .item-active-logout span{
+    margin-right: 8px;
+    padding: 4px;
+    background-color: var(--white);
+    color: var(--purple);
+    border-radius: 10px;
+  }
+
+  .item-active-logout p{
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+
+  .menu-item-content{
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 200px;
+  }

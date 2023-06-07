@@ -1,0 +1,60 @@
+.login-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    z-index: 10;
+    text-align: center;
+}
+
+.w-30{
+    width: 30%;
+}
+.h-370{
+    height: 370px;
+}
+
+.box-shadow{
+    box-shadow: 0px 4.80509px 4.80509px rgba(118, 118, 118, 0.25);
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .brand-name {
+   color: var(--purple);
+   font-family: inter-medium;
+   font-size: 20px;
+   font-weight: 500;
+  }
+  
+  .brand-logo {
+    margin-left: 10px; 
+  }
+  
+  .brand-logo img {
+    width: 25px;
+    height: auto;
+  }
+
+  .background-container{
+    position: fixed;
+    top: -15px;
+    left: -15px;
+    height: 50vh;
+    width: 100%;
+  }
+
+  .background-container .background-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 105%;
+    height: 40vh;
+  }
+
+  .br-14{
+    border-radius: 14px;
+  }

@@ -1,0 +1,10 @@
+.loading-box{
+    background-color: transparent !important;
+    height: 100vh;
+    z-index: 10;
+    position: relative;
+}
+
+.spinner-element{
+    margin-top: 50%;
+}

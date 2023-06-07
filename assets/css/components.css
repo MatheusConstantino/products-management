@@ -1,0 +1,61 @@
+.input-rounded{
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 18px;
+    width: 100%;
+    height: 30px;
+}
+.input-rounded::placeholder{
+    padding-left: 16px;
+}
+.btn-login{
+    color: var(--white);
+    background-color: var(--purple);
+    width: 90%;
+    border-radius: 16px;
+}
+
+.btn-outline-purple{
+    border: 2px solid var(--purple);
+    border-radius: 50px;
+    background-color: transparent;
+    color: var(--purple);
+    font-weight: 500;
+}
+
+.btn-outline-purple:hover{
+    border: 2px solid var(--purple);
+    border-radius: 50px;
+    background-color: var(--purple);
+    color: var(--white);
+    font-weight: 500;
+}
+
+.btn-confirm{
+    border: 2px solid var(--purple);
+    border-radius: 12px;
+    background-color: var(--purple);
+    color: var(--white);
+    font-weight: 700;
+    padding: 2px 8px;
+}
+.btn-cancel{
+    border: 2px solid var(--purple);
+    border-radius: 12px;
+    background-color: var(--white);
+    color: var(--purple);
+    font-weight: 700;
+    padding: 2px 8px;
+}
+.btn-cancel:hover{
+    border: 2px solid var(--purple);
+    background-color: var(--purple);
+    color: var(--white);
+    font-weight: 700;
+}
+.btn-confirm:hover{
+    border: 2px solid var(--purple);
+    background-color: var(--white);
+    color: var(--purple);
+    font-weight: 700;
+}

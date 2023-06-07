@@ -1,0 +1,33 @@
+:root {
+    --purple: #993399;
+    --white: #FFF;
+    --light-gray: #A0AEC0;
+    --daark-gray: #2D3748;
+}
+
+@font-face {
+    font-family: inter-bold;
+    src: url('../fonts/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: inter-medium;
+    src: url('../fonts/Inter-Medium.ttf');
+}
+
+@font-face {
+    font-family: inter-regular;
+    src: url('../fonts/Inter-Regular.ttf');
+}
+
+html{
+    padding: 0;
+    margin: 0;
+    font-family: inter-bold;
+    font-size: 14px;
+}
+
+.text-purple{
+    color: var(--purple);
+}
+
