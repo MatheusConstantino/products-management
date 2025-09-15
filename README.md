@@ -36,7 +36,7 @@ This frontend application relies on a separate `products-api` backend service (e
 ```mermaid
 graph TD
     User[Browser/User] -->|Accesses| Frontend[Nuxt.js Frontend]
-    Frontend -->|Authenticates via POST /api/login| BackendAPI[products-api (http://127.0.0.1:8000)]
+    Frontend -->|Authenticates via POST /api/login| BackendAPI[products-api]
     Frontend -->|Stores Token in Cookie| BrowserStorage[Browser Cookies]
     Frontend -->|Performs CRUD operations with Token| BackendAPI
     BackendAPI -->|Persists/Retrieves Data| Database[(Database)]
